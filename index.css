@@ -1,0 +1,86 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background-color: #c9f8e3;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 40px;
+}
+
+/* TÍTULO PRINCIPAL */
+.titulo {
+  background-color: #ffe600b0;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.4;
+  box-shadow: 0 4px 10px rgba(241, 120, 120, 0.781);
+}
+
+/* SUBTÍTULO */
+.subtitulo {
+  text-align: center;
+  margin: 25px 10px 40px 10px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0a2e1b;
+}
+
+/* CONTAINER DOS BOTÕES */
+.botoes-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* BOTÕES COM LOGO */
+.botao-logo {
+  width: 220px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+/* EFEITO PROFISSIONAL */
+.botao-logo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+  .titulo {
+    font-size: 18px;
+    padding: 18px;
+  }
+
+  .subtitulo {
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  .botao-logo {
+    width: 85%;
+    max-width: 320px;
+    height: 120px;
+  }
+
+  .botoes-container {
+    gap: 25px;
+  }
+}
