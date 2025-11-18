@@ -47,6 +47,7 @@ section {
 .b12,
 .ginsen,
 .emagrece
+.creatinadark
  { transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(22, 5, 255, 0.3);
   width: 100%;
@@ -66,6 +67,7 @@ section {
 .b12{background-image: url('/img/b12.png')}
 .ginsen{background-image: url(/img/ginsen.png);}
 .emagrece{background-image: url(/img/emagrece.png);}
+.creatinadark{background-image: url(/img/creatinadark.png);}
 /* TEXTO */
 .texto{
   padding: 16px;
@@ -103,14 +105,14 @@ section {
 /*outra seçãp*/
 
 .titulo {
-  background-color: #ffe600b0;
+  background-color: #ffe6006e;
   padding: 20px;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
   color: #000;
   line-height: 1.4;
-  box-shadow: 0 4px 10px rgba(241, 120, 120, 0.781);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.651);
 }
 
 .botoes-container {

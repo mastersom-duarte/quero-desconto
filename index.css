@@ -14,14 +14,14 @@ body {
 
 /* TÍTULO PRINCIPAL */
 .titulo {
-  background-color: #ffe600b0;
+  background-color: #fffb0077;
   padding: 20px;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
   color: #000;
   line-height: 1.4;
-  box-shadow: 0 4px 10px rgba(241, 120, 120, 0.781);
+  box-shadow: 0 4px 10px rgba(22, 22, 22, 0.589);
 }
 
 /* SUBTÍTULO */
