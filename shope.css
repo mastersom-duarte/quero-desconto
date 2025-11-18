@@ -47,7 +47,8 @@ section {
 .b12,
 .ginsen,
 .emagrece,
-.creatinadark
+.creatinadark,
+.praiabranco
  { transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(22, 5, 255, 0.3);
   width: 100%;
@@ -68,6 +69,7 @@ section {
 .ginsen{background-image: url(/img/ginsen.png);}
 .emagrece{background-image: url(/img/emagrece.png);}
 .creatinadark{background-image: url('/img/creatinadark.png');}
+.praiabranco{background-image: url('/img/praiabranco.png');}
 /* TEXTO */
 .texto{
   padding: 16px;
