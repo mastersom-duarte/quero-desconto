@@ -50,7 +50,9 @@ section {
 .creatinadark,
 .praiabranco,
 .costabranco,
-.brancocorrente
+.brancocorrente,
+.conjuntoshort,
+.vestidodourado
  { transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(22, 5, 255, 0.3);
   width: 100%;
@@ -74,6 +76,8 @@ section {
 .praiabranco{background-image: url('/img/praiabranco.png');}
 .costabranco{background-image: url('img/costabranco.png');}
 .brancocorrente{background-image: url('img/brancocorrente.png');}
+.conjuntoshort{background-image: url('img/conjuntoshort.png');}
+.vestidodourado{background-image: url('img/vestidodourado.png');}
 /* TEXTO */
 .texto{
   padding: 16px;
