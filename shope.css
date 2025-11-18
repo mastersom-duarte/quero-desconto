@@ -67,7 +67,7 @@ section {
 .b12{background-image: url('/img/b12.png')}
 .ginsen{background-image: url(/img/ginsen.png);}
 .emagrece{background-image: url(/img/emagrece.png);}
-.creatinadark{background-image: url(/img/creatinadark.png);}
+.creatinadark{background-image: url('/img/creatinadark.png');}
 /* TEXTO */
 .texto{
   padding: 16px;
