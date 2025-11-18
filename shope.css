@@ -145,15 +145,17 @@ section {
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
+/* Container do botão */
 .whatsapp-float {
   position: fixed;
   width: 65px;
   height: 65px;
-  bottom: 20px; /* distância da parte de baixo */
-  right: 20px;  /* distância do lado direito */
+  bottom: 20px;
+  right: 20px;
   z-index: 999;
 }
 
+/* Ícone */
 .whatsapp-float img {
   width: 100%;
   height: 100%;
@@ -162,6 +164,32 @@ section {
   transition: transform 0.3s;
 }
 
-.whatsapp-float img:hover {
+/* Efeito hover no ícone */
+.whatsapp-float:hover img {
   transform: scale(1.1);
 }
+
+/* ------- TOOLTIP -------- */
+.whatsapp-float::after {
+  content: "Fale conosco";
+  position: absolute;
+  right: 75px; /* distância do ícone */
+  bottom: 50%; 
+  transform: translateY(50%);
+  background: #25D366; /* cor do WhatsApp */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+/* Mostrar ao passar o mouse */
+.whatsapp-float:hover::after {
+  opacity: 1;
+  transform: translateY(50%) translateX(-5px);
+}
+
